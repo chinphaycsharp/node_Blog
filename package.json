@@ -1,0 +1,29 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon --inspect app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/quangle789/node_Blog.git"
+    },
+    "keywords": [
+        "nodeblog"
+    ],
+    "author": "quangle",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/quangle789/node_Blog/issues"
+    },
+    "homepage": "https://github.com/quangle789/node_Blog#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
